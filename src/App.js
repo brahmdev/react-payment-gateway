@@ -18,9 +18,9 @@ const App = () => {
     console.log('loaded :: ', loaded);
     if (loaded) {
       const checkoutOptions = {
-        checkoutKey: 'test-checkout-key-d6f65d6024b44becb6a4f5ad5fee8d2a', //[Required] Test or Live GUID with dashes
-        paymentId: '027400005f97b07bcbcf1f1738af2dfb', //[required] GUID without dashes
-        partnerMerchantNumber: '100018348', //[optional] Number
+        checkoutKey: '<I_HAD_MY_CHECKOUT_KEY_HERE>', //[Required] Test or Live GUID with dashes
+        paymentId: '<I_HAD_PAYMENT_ID_HERE>', //[required] GUID without dashes
+        partnerMerchantNumber: '<I_HAD_MY_MERCHANT_NUMBER_HERE>', //[optional] Number
         containerId: 'dibs-complete-checkout', //[optional] defaultValue: dibs-checkout-content
         language: 'en-GB', //[optional] defaultValue: en-GB
         theme: {
